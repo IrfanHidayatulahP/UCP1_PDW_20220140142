@@ -1,0 +1,46 @@
+/* Mengubah font di section 1 */
+section1{
+    font-family: 'Times New Roman', Times, serif;  
+} 
+
+/* Mengubah ukuran header 1 */
+h1{
+    font-size: 40px;
+}
+
+/* Mengubah warna background navbar */
+.container-fluid {
+    background-color: darkblue;
+}
+
+/* Mengubah warna text navbar */
+.container-fluid a{
+    color: white;
+}
+
+/* Mengubah warna text navbar ketika diarahkan dengan cursor*/
+.container-fluid a:hover{
+    color: red;
+}
+
+/* Mengubah warna text navbar */
+.nav-item a{
+    color: white;
+}
+
+/* Mengubah warna text navbar dengan cursor*/
+.nav-item a:hover{
+    color: red;
+}
+
+/* Mmeberi jarak */
+.card-group{
+    margin-bottom: 30px;
+}
+
+/* Mengubah warna background footer */
+footer{
+    background-color: bisque;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

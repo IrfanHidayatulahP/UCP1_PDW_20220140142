@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quins Coffee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Makanan">Makanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Minuman">Minuman</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Snack">Snack</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section1-->
+    <div class="section1">
+        <div class="container text-center">
+            <h1>Selamat Datang di Quins Coffee</h1>
+            <p class="lead">Tempat nongkrongmu dengan teman</p>
+            <p id="current-time" class="lead"></p>
+        </div>
+    </div>
+
+    <div class="card" style="margin-bottom: 30px;">
+        <img src="./Assets/interior-shot-cafe-with-chairs-near-bar-with-wooden-tables.jpg" class="card-img-top" alt="iki gambar">
+        <div class="card-body">
+          <h5 class="card-title">Quins Coffee</h5>
+          <p class="card-text">Menyediakan Berbagai Jenis Makanan dan Minuman untuk menikmati waktu bersama Teman Anda</p>
+        </div>
+      </div>
+    <!-- Section2-->
+    <div class="card-group" id="Makanan">
+        <div class="card">
+            <img src="./Assets/5-makanan-enak-dari-indonesia-dan-malaysia-yang-terkenal-enak-5.jpeg"
+                class="card-img-top" alt="iki gambar">
+            <div class="card-body">
+                <h5 class="card-title">Nasi Goreng Sepisial</h5>
+                <p class="card-text">Sepele tapi mengenyangkan dan enak</p>
+            </div>
+        </div>
+        <div class="card" id="Minuman">
+            <img src="./Assets/download.jpeg" class="card-img-top" alt="iki gambar">
+            <div class="card-body">
+                <h5 class="card-title">Minuman</h5>
+                <p class="card-text">Berbagai Jenis Minuman yang menyegarkan</p>
+            </div>
+        </div>
+        <div class="card" id="Snack">
+            <img src="./Assets/download (1).jpeg" class="card-img-top" alt="iki gambar">
+            <div class="card-body">
+                <h5 class="card-title">Snack</h5>
+                <p class="card-text">Berbagai Jenis snack untuk mengganjal Perut</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Accordion Effect -->
+    <div class="accordion" id="accordionExample" style="margin-bottom: 20px;">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    About us
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eos tenetur deleniti. Dolorum
+                        voluptatem praesentium beatae, suscipit similique eaque nisi laboriosam voluptatibus libero
+                        eveniet! Delectus sequi dolor asperiores optio temporibus?</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Location
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Quins Coffee<br>
+                        Kasihan, Bantul, Yogyakarta<br>
+                        55183, Indonesia<br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- menghubungkan javascript bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <!-- menghubungkan javascript sendiri -->
+    <script src="./Script/script.js"></script>
+
+    <!-- Footer -->
+    <footer class="footer" style="margin-top: 40px;">
+        <div class="container text-center">
+            <p>&copy; 2024 Quins Coffee</p>
+        </div>
+    </footer>
+</body>
+
+</html>
