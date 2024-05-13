@@ -1,8 +1,8 @@
 <h1>Website Quins Coffee</h1>
 <p>Ini merupakan website pribadi untuk Quins Coffee dimana ada beberapa tampilan jenis makanan dan minuman yang tersedia pada coffee shop ini</p>
 
-![image](https://github.com/IrfanHidayatulahP/UCP1_PDW_20220140142/assets/127075020/625ea3c2-0394-4046-bbe5-fb0c2fdc087f)
+![Screenshot (473)](https://github.com/IrfanHidayatulahP/UCP1_PDW_20220140142/assets/127075020/7b416632-cb9f-4563-b2ab-5b25b59f6843)
 
-![image](https://github.com/IrfanHidayatulahP/UCP1_PDW_20220140142/assets/127075020/0e7e8b82-c134-4529-9fa8-3a92adc997b4)
+![Screenshot (474)](https://github.com/IrfanHidayatulahP/UCP1_PDW_20220140142/assets/127075020/35fa6fbc-d914-4382-a04c-3dea8027dbc2)
 
-![image](https://github.com/IrfanHidayatulahP/UCP1_PDW_20220140142/assets/127075020/300ad0ef-064a-46b7-981e-cb4b7ffd203e)
+![Screenshot (475)](https://github.com/IrfanHidayatulahP/UCP1_PDW_20220140142/assets/127075020/5b0f300e-12e1-4807-a810-a534813962ee)
